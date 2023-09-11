@@ -1,11 +1,11 @@
 # AES ECB Encryption and Decryption
 
-This project provides a simple implementation of AES (Advanced Encryption Standard) encryption and decryption in ECB (Electronic Codebook) mode. It supports key sizes of 128, 192, and 256 bits, with a block size of 16 bytes.
+This project provides a simple implementation of AES (Advanced Encryption Standard) encryption and decryption in ECB (Electronic Codebook) mode.
 
 ## Features
 
 - **AES Encryption Decryption:** Supports AES-128bit, AES-192bit, and AES-256bit.
-- **ECB Mode:** Implements the Electronic Codebook mode, which encrypts each block of data independently.
+- **ECB Mode:** Implements the Electronic Codebook mode, which encrypts and decrypts each block of data independently.
   
 ## Usage
 
@@ -74,7 +74,7 @@ int main() {
 
 ## Acknowledgments
 
-- AES block size is 16 bytes, meaning the maximum data size for a single block of encryption or decryption is 16 bytes (128 bits).
+- AES fixed block size is 16 bytes,  the maximum data size for a single block of encryption or decryption is 16 bytes (128 bits).
 - To encrypt or decrypt data larger than 16 bytes, you should divide it into 16-byte blocks and process each block independently. 
 
 ## License
